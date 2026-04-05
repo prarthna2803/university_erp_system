@@ -53,18 +53,20 @@ Quick start:
 5. Run `src/erp/ui/LoginFrame.java`
 
 ## Project structure
+```
 src/
-├── erp/
-│   ├── data/        — DAO layer (database queries)
-│   ├── domain/      — domain models (Student, Course, Grade...)
-│   ├── service/     — business logic
-│   └── ui/          — Swing UI (admin, instructor, student panels)
-lib/                 — external JARs
-authdb_backup.sql    — authentication database
-erpdb_backup.sql     — ERP database
-HowToRun.pdf         — setup guide
-Report.pdf           — project report
-Roles.pdf            — role documentation
+└── erp/
+    ├── data/      — DAO layer (database queries)
+    ├── domain/    — domain models (Student, Course, Grade)
+    ├── service/   — business logic
+    └── ui/        — Swing UI (admin, instructor, student panels)
+lib/               — external JARs
+authdb_backup.sql  — authentication database
+erpdb_backup.sql   — ERP database
+HowToRun.pdf       — setup guide
+Report.pdf         — project report
+Roles.pdf          — role documentation
+```
 
 ## Documents
 
